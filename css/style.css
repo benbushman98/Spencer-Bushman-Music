@@ -1,0 +1,39 @@
+/* Y In Mn Blue: #304D6D */
+* {
+    margin: 0px;
+}
+.container {
+    height: auto;
+    color: white;
+    display: block;
+    background-image: linear-gradient(
+    rgba(48, 77, 109) 0%,
+    rgba(62, 151, 247) 100%
+        );
+    margin: 10px;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar h1 {
+    width: 100%;
+    text-align: center;
+    margin: 25px;
+    font-size: 50px;
+}
+
+.navbar ul {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    margin-left: -40px;
+    margin-bottom: 20px;
+}
+.navbar ul li {
+    font-size: 25px;
+    display: inline;
+    text-decoration: underline;
+    justify-content: center;
+    margin: 20px;
+}
