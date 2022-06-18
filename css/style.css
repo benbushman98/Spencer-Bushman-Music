@@ -7,7 +7,7 @@
     color: white;
     display: block;
     background-image: linear-gradient(
-    rgba(48, 77, 109) 0%,
+    rgb(14, 34, 56) 0%,
     rgba(62, 151, 247) 100%
         );
     margin: 10px;
@@ -30,10 +30,15 @@
     margin-left: -40px;
     margin-bottom: 20px;
 }
+
 .navbar ul li {
     font-size: 25px;
     display: inline;
+    color: white;
     text-decoration: underline;
-    justify-content: center;
+    text-align: center;
     margin: 20px;
+}
+.navbar ul li a {
+    color: white;
 }
