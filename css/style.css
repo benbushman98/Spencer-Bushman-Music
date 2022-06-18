@@ -2,6 +2,7 @@
 * {
     margin: 0px;
 }
+/* HEADER */
 .container {
     height: auto;
     color: white;
@@ -20,9 +21,8 @@
     width: 100%;
     text-align: center;
     margin: 25px;
-    font-size: 50px;
+    font-size: 52px;
 }
-
 .navbar ul {
     width: 100%;
     text-align: center;
@@ -30,7 +30,6 @@
     margin-left: -40px;
     margin-bottom: 20px;
 }
-
 .navbar ul li {
     font-size: 25px;
     display: inline;
@@ -41,4 +40,15 @@
 }
 .navbar ul li a {
     color: white;
+}
+
+
+
+/* About Section */
+#about {
+    display: flex;
+}
+#about img {
+    height: 400px;
+    width: 425px;
 }
