@@ -47,8 +47,13 @@
 /* About Section */
 #about {
     display: flex;
+    flex-wrap: wrap;
 }
 #about img {
-    height: 400px;
-    width: 425px;
+    margin: 10px;
+    height: 375px;
+    width: 415px;
+}
+#about p {
+    text-align: center;
 }
