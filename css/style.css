@@ -2,6 +2,7 @@
 * {
     margin: 0px;
 }
+
 /* HEADER */
 .container {
     height: auto;
@@ -46,14 +47,20 @@
 
 /* About Section */
 #about {
-    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#about div {
     flex-wrap: wrap;
 }
-#about img {
-    margin: 10px;
-    height: 375px;
-    width: 415px;
+.responsive {
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 #about p {
     text-align: center;
+    margin: 20px;
+    font-size: 25px;
 }
