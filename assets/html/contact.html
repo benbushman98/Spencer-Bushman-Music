@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Spencer Bushman Music</title>
+</head>
+
+<body>
+    <header class="containerheader">
+        <nav class="navbar">
+            <h1>Spencer Bushman Music</h1>
+            <ul>
+                <li><a href="../../index.html">About</a></li>
+                <li><a href="./music.html">Music</a></li>
+                <li><a href="./contact.html">Contact</a>
+                <li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="col-12">
+        <form action="./mail_handler.php" method="POST">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="first_name" name="first_name" class="form-control">
+                        <label for="name" class="formheader">First Name</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="last_name" name="last_name" class="form-control">
+                        <label for="name" class="formheader">Last Name</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="email" name="email" class="form-control">
+                        <label for="email" class="formheader">Email</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="number" name="number" class="form-control">
+                        <label for="email" class="formheader">Phone Number</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form">
+                        <textarea type="text" id="message" name="message" rows="2"
+                            class="form-control md-textarea"></textarea>
+                        <label class="formheader" for="message">Description</label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="text-center">
+                <input id="sendbutton" class="btn btn-primary my-5" type="submit" name="submit" value="Submit">
+            </div>
+            <div class="status"></div>
+    </div>
+
+    </form>
+</body>
+
+</html>

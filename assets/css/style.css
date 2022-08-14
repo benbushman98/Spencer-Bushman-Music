@@ -1,6 +1,10 @@
 /* Y In Mn Blue: #304D6D */
 * {
     margin: 0px;
+    
+}
+body {
+    background-color: #939393;
 }
 
 /* HEADER */
